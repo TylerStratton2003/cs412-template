@@ -5,7 +5,7 @@ import {GUI} from 'lil-gui';
 // to a canvas element.
 
 window.addEventListener("DOMContentLoaded", main);
-window.addEventListener("resize", resize, false);
+window.addEventListener("resize", resize);
 
 let canvas : HTMLCanvasElement;
 
