@@ -4,8 +4,8 @@ import {Texture, Scene, PerspectiveCamera, WebGLRenderer, Mesh,
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js';
 
-import vertShader from './src/shader/part5.vert.glsl';
-import fragShader from './src/shader/part5.frag.glsl';
+import vertShader from './shader/part5.vert.glsl';
+import fragShader from './shader/part5.frag.glsl';
 import { cube } from './shapes';
 
 let canvas : HTMLCanvasElement;
