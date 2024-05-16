@@ -17,6 +17,7 @@ export default {
     plugins: [
         resolve(), // tells Rollup how to find stuff in node_modules
         typescript({ sourceMap: !production, inlineSources: !production }), // Typescript support
-        production && terser() // minify, but only in production
+        production && terser(), // minify, but only in production
+        glsl({ include: "src/shader/*.glsl" })
     ]
 };
