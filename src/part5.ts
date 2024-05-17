@@ -8,6 +8,7 @@ import vertShader from './shader/final.vert.glsl';
 import fragShader from './shader/final.frag.glsl';
 import { cube } from './shapes';
 
+
 let canvas : HTMLCanvasElement;
 let renderer : WebGLRenderer;
 let camera : PerspectiveCamera;
